@@ -45,6 +45,136 @@ p {
   font-size: 18px;
 }
 
+/* Context selector styling */
+#context-selector {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f8f8ff;
+  border-radius: 10px;
+  border: 1.5px solid #e0e7ff;
+  text-align: left;
+}
+
+#context-selector label {
+  display: block;
+  font-size: 16px;
+  color: #5e548e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#contextDropdown {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #b4aee8;
+  background: #ffffff;
+  color: #5e548e;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+#contextDropdown:hover {
+  border-color: #9589d4;
+}
+
+#contextDropdown:focus {
+  outline: none;
+  border-color: #5e548e;
+  box-shadow: 0 0 0 3px rgba(94, 84, 142, 0.1);
+}
+
+/* Persona selector styling */
+#persona-selector {
+  margin-top: 16px;
+  padding: 16px;
+  background: #fff5f8;
+  border-radius: 10px;
+  border: 1.5px solid #ffd4e5;
+  text-align: left;
+}
+
+#persona-selector label {
+  display: block;
+  font-size: 16px;
+  color: #5e548e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#personaDropdown {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #ffb3d1;
+  background: #ffffff;
+  color: #5e548e;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+#personaDropdown:hover {
+  border-color: #ff8fb8;
+}
+
+#personaDropdown:focus {
+  outline: none;
+  border-color: #5e548e;
+  box-shadow: 0 0 0 3px rgba(255, 179, 209, 0.2);
+}
+
+/* Custom text box styling */
+#custom-text-box {
+  margin-top: 16px;
+  padding: 16px;
+  background: #f5fff8;
+  border-radius: 10px;
+  border: 1.5px solid #c8f5d4;
+  text-align: left;
+}
+
+#custom-text-box label {
+  display: block;
+  font-size: 16px;
+  color: #5e548e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#customText {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #a8e6b8;
+  background: #ffffff;
+  color: #5e548e;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.2s;
+}
+
+#customText:hover {
+  border-color: #7dd89a;
+}
+
+#customText:focus {
+  outline: none;
+  border-color: #5e548e;
+  box-shadow: 0 0 0 3px rgba(168, 230, 184, 0.2);
+}
+
+#customText::placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
+
 #response {
   color: #22223b;
   margin-top: 28px;
